@@ -108,7 +108,7 @@ section {
 body {
     line-height: 1;
     color: #000000;
-    font-family: var(--font Pretendard);
+    font-family: 'Pretendard';
 }
 ol,
 ul {
@@ -139,6 +139,12 @@ a {
     color: inherit;
 }
 button {
+    margin: 0;
+    padding: 0;
     background: transparent;
     border: none;
+    cursor: pointer;
+}
+input {
+    outline-width: 0px;
 }
