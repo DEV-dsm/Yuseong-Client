@@ -121,7 +121,6 @@ const ImgWrapper = styled.div<{ $isOpen?: boolean }>`
     right: 10px;
     display: flex;
     align-items: center;
-    /* rotate: ${({ $isOpen }) => ($isOpen ? '180deg' : '0deg')}; */
     transition-duration: 0.5s;
 `;
 
@@ -129,7 +128,7 @@ const Items = styled.div<{ width: string }>`
     position: absolute;
     margin-top: 50px;
     width: ${({ width }) => width};
-    max-height: 180px; //
+    max-height: 180px;
     z-index: 100;
     overflow: scroll;
     background: ${color.gray1};
